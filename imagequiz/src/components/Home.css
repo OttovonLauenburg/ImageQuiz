@@ -1,9 +1,13 @@
 .loginButton{
 	float:right;
 }
-.Hello{
-	float:left;
-}
+
 img{
 	float:left;
+	margin:50px 50px 50px 50px;
+	display:inline-block;
+}
+p{
+	float:left;
+	margin-top:180px;
 }

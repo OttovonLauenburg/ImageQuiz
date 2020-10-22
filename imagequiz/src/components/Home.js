@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
-
+import flowerArray from "./flowerArray.js";
+import Flower from "./Flower.js";
 
 class Home extends React.Component {
 	constructor(props){
@@ -49,12 +50,14 @@ class Home extends React.Component {
 			<div>
 				<div className="loginButton">
 					{this.state.authenticated ? this.state.username: <button onClick={this.login}>Login</button>}
-					
 				</div>
-				<div className="Hello">Hello from my application!</div>
+				{flowerArray.map(f => <Flower data={f}/>)}
 			</div>
 		)
 	}
 }
+
+
+
 
 export default Home;
