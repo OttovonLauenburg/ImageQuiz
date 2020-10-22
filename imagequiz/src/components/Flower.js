@@ -6,7 +6,7 @@ class Flower extends React.Component{
 	render(){
 		return (
 			
-			<div>
+			<div className="flower">
 				<img src={require('./image/' + this.props.data.image)}  alt={this.props.data.name}/>
 				<p>{this.props.data.name}</p>
 			</div>

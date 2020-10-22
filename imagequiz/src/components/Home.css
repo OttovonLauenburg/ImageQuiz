@@ -1,13 +1,20 @@
 .loginButton{
-	float:right;
+    position: absolute;
+	right: 10px;
 }
 
+form{
+	margin-top: 200px;
+}
+
+.flower{
+	border:2px solid Violet;
+}
 img{
 	float:left;
 	margin:50px 50px 50px 50px;
-	display:inline-block;
 }
 p{
 	float:left;
-	margin-top:180px;
+	margin-top:200px;
 }
